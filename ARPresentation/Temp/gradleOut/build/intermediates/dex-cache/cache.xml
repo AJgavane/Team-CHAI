@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="E:\Augmented Reality\ARPresentation\Temp\gradleOut\libs\bt300plugin.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="54df964c3fd40ae5545e2b850834804da799cf17">
+        <dex dex="E:\Augmented Reality\ARPresentation\Temp\gradleOut\build\intermediates\pre-dexed\release\bt300plugin_348e0b9fadd264f5621a89185436dc8fe5d6528d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\Augmented Reality\ARPresentation\Temp\gradleOut\libs\unity-classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="c6eace347a88d2038dc7d81c32c6f9612fc663cb">
+        <dex dex="E:\Augmented Reality\ARPresentation\Temp\gradleOut\build\intermediates\pre-dexed\release\unity-classes_aae073cd28155d404f925f46c936dfecb6ffd6b4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\Augmented Reality\ARPresentation\Temp\gradleOut\libs\BT300Ctrl.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="f7c5f709f149be134c385c3e0fa654604dc7e8b4">
+        <dex dex="E:\Augmented Reality\ARPresentation\Temp\gradleOut\build\intermediates\pre-dexed\release\BT300Ctrl_fb2dc9cf19e1a315a7dc64c1885d7785abc546e9.jar" />
+    </item>
+
+</items>
