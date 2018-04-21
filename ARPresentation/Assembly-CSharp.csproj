@@ -51,7 +51,15 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\_Scripts\Camera\HeadTrackingAR.cs" />
+     <Compile Include="Assets\_Scripts\Camera\MoverioCameraController.cs" />
+     <Compile Include="Assets\_Scripts\Control Pad\HeadsetTap.cs" />
+     <Compile Include="Assets\_Scripts\Control Pad\MoverioController.cs" />
+     <Compile Include="Assets\_Scripts\Gyroscope\Gyroscope.cs" />
+     <Compile Include="Assets\_Scripts\Gyroscope\Magnetometer.cs" />
      <Compile Include="Assets\_Scripts\LevelManager.cs" />
+     <Compile Include="Assets\HeadTrakingAR.cs" />
+     <Compile Include="Assets\Scrip.cs" />
  <Reference Include="Vuforia.UnityExtensions">
  <HintPath>C:/Program Files/Unity/Editor/Data/PlaybackEngines/VuforiaSupport/Managed/Runtime/Vuforia.UnityExtensions.dll</HintPath>
  </Reference>
