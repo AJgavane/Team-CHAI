@@ -32,7 +32,7 @@ public class HeadsetTap : MonoBehaviour
 
 	void Start () 
 	{
-		_sceneName = SceneManager.GetActiveScene ();    
+		_sceneName = SceneManager.GetActiveScene ();
 		_changeCounter = false;
 		_index = 0;		
 	}
@@ -42,7 +42,8 @@ public class HeadsetTap : MonoBehaviour
 
 	{   //detection of headset tap and navigation of the scene in ascending order
 		_changeCounter = MoverioController.Instance.GetHeadsetTap ();
-		_index = _sceneName.buildIndex;
+        Debug.Log(SystemInfo.deviceModel);
+        _index = _sceneName.buildIndex;
 		while(MoverioController.Instance.GetHeadsetTap () != false)  //Detecting headset tap count.
 		{
 

@@ -69,7 +69,7 @@ public class HeadTrackingAR : MonoBehaviour
         if (_gyroIsAvailable)
         {
             //_t.localRotation = Quaternion.Slerp(transform.localRotation, Input.gyro.attitude * _callibration, Time.deltaTime*30);
-            transform.Rotate(-Input.gyro.rotationRateUnbiased.x, -Input.gyro.rotationRateUnbiased.y, Mathf.Clamp(-Input.gyro.rotationRateUnbiased.z, -0.2f, .2f));
+           // transform.Rotate(-Input.gyro.rotationRateUnbiased.x, -Input.gyro.rotationRateUnbiased.y, Mathf.Clamp(-Input.gyro.rotationRateUnbiased.z, -0.2f, .2f));
             txt.text = "GYRO Headset : " + Input.gyro.rotationRateUnbiased;
         }
 

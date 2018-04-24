@@ -88,9 +88,9 @@ public class MoverioController : MonoBehaviour
     //Function to make sure the device is a Moverio BT-300. 
     void CheckDeviceType()
     {
-        if (SystemInfo.deviceModel.Equals("EPSON EMBT3C"))
+        Debug.Log(SystemInfo.deviceModel);
+        if (SystemInfo.deviceModel.Equals("MS-7A59 (MSI)"))
         {
-
             AndroidJNI.AttachCurrentThread();
 
         }

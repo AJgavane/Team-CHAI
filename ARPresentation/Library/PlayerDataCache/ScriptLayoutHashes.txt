@@ -1,9 +1,21 @@
 Android
 PlayerPath?
-E:/Augmented Reality/ARPresentation/ARPresentation.apk
+E:/Augmented Reality/ARPresentation/ARPresentation_android.apk
 SceneListBegin?
 Assets/_Scenes/Start Menu.unity
 Assets/_Scenes/Presentation.unity
+Assets/_Scenes/CellWallScreen.unity
+Assets/_Scenes/CentriolesScreen.unity
+Assets/_Scenes/CytoplasmScreen.unity
+Assets/_Scenes/EndoplasmicReticulumScreen.unity
+Assets/_Scenes/LysosomeScreen.unity
+Assets/_Scenes/MicrofilamentScreen.unity
+Assets/_Scenes/MitochondriaScreen.unity
+Assets/_Scenes/NavigationRingScene.unity
+Assets/_Scenes/NucleusScreen.unity
+Assets/_Scenes/RibosomesScreen.unity
+Assets/_Scenes/SelectionScreen.unity
+Assets/_Scenes/VacuoleScreen.unity
 SceneListEnd?
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.Timeline.dll:UnityEngine.Timeline.ActivationPlayableAsset
 dbc29a6f2739d277c10da432d73adb6d UnityEngine.Timeline.dll:UnityEngine.Timeline.ActivationTrack
@@ -95,7 +107,7 @@ ff05dcdf90651c3d98a9cad3df5e471e UnityEngine.Timeline.dll:UnityEngine.Timeline.C
 31aaf521b3ef8699466676591ea0efd4 UnityEngine.Timeline.dll:UnityEngine.Timeline.GroupTrack
 31aaf521b3ef8699466676591ea0efd4 UnityEngine.Timeline.dll:UnityEngine.Timeline.PlayableTrack
 df374c01140c2d578bf70cbd60073d1d UnityEngine.Timeline.dll:UnityEngine.Timeline.TimelineAsset
-f7fc660264c76778c356192009560542 Assembly-CSharp.dll:.Gyroscope
+70e23875ef17b6dfe442e45911ba3267 Assembly-CSharp.dll:.Gyroscope
 fc1e0f4d8439d9928083474691511a13 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkAnimator
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.Networking.dll:UnityEngine.Networking.NetworkBehaviour
 60b2bb652410a5867a5ab9a01cd38461 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkDiscovery
@@ -297,3 +309,16 @@ d2a2bd333db22f480a8589e167314ecc Vuforia.UnityExtensions.dll:Vuforia.UserDefined
 3d1b89310e77c34bc0c8d7132231345c Vuforia.UnityExtensions.dll:Vuforia.WireframeBehaviour
 05524b8f659e7bfe5756d1335fec24ba Vuforia.UnityExtensions.dll:Vuforia.WireframeTrackableEventHandler
 15bea26698002c6c4a3087131232ce5c Vuforia.UnityExtensions.dll:Vuforia.WordBehaviour
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.Lyso_button
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.Nuc_button
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.Cyto_button
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.NavScript
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.Mito_button
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.Wall_button
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.Vac_button
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.Cent_button
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.Ribo_button
+f970a8c3c6381b998fe99262480eb961 Assembly-CSharp.dll:UnityEngine.UI.Touchable
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.Micro_button
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.ER_button
+58cd01289e4b47df094788027ef9dc23 Assembly-CSharp.dll:.HeartBeatMotion

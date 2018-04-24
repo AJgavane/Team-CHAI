@@ -51,6 +51,18 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\_Scripts\button scripts\Cent_button.cs" />
+     <Compile Include="Assets\_Scripts\button scripts\Cyto_button.cs" />
+     <Compile Include="Assets\_Scripts\button scripts\ER_button.cs" />
+     <Compile Include="Assets\_Scripts\button scripts\Lyso_button.cs" />
+     <Compile Include="Assets\_Scripts\button scripts\Micro_button.cs" />
+     <Compile Include="Assets\_Scripts\button scripts\Mito_button.cs" />
+     <Compile Include="Assets\_Scripts\button scripts\NavScript.cs" />
+     <Compile Include="Assets\_Scripts\button scripts\Nuc_button.cs" />
+     <Compile Include="Assets\_Scripts\button scripts\Ribo_button.cs" />
+     <Compile Include="Assets\_Scripts\button scripts\Touchable.cs" />
+     <Compile Include="Assets\_Scripts\button scripts\Vac_button.cs" />
+     <Compile Include="Assets\_Scripts\button scripts\Wall_button.cs" />
      <Compile Include="Assets\_Scripts\Camera\HeadTrackingAR.cs" />
      <Compile Include="Assets\_Scripts\Camera\MoverioCameraController.cs" />
      <Compile Include="Assets\_Scripts\Control Pad\HeadsetTap.cs" />
@@ -58,6 +70,7 @@
      <Compile Include="Assets\_Scripts\Gyroscope\Gyroscope.cs" />
      <Compile Include="Assets\_Scripts\Gyroscope\Magnetometer.cs" />
      <Compile Include="Assets\_Scripts\LevelManager.cs" />
+     <Compile Include="Assets\_Scripts\Organelle\HeartBeatMotion.cs" />
      <Compile Include="Assets\HeadTrakingAR.cs" />
      <Compile Include="Assets\Scrip.cs" />
  <Reference Include="Vuforia.UnityExtensions">

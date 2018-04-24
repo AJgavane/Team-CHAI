@@ -10,6 +10,7 @@ GameObject:
   - component: {fileID: 400000}
   - component: {fileID: 11400000}
   - component: {fileID: 114007785300002092}
+  - component: {fileID: 114390166740200044}
   m_Layer: 0
   m_Name: MoverioController
   m_TagString: Untagged
@@ -66,3 +67,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ae068c162c00b1c47b1eee07cca60a7b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &114390166740200044
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5a027d157b56cd4c8d922866c19d125, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LeftEyeCam: {fileID: 0}
+  RightEyeCam: {fileID: 0}
+  Cam2D: {fileID: 0}
+  PupillaryDistance: 0.05

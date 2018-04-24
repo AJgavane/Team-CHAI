@@ -11,3 +11,39 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/_Scenes/Presentation.unity
     guid: f54d183a5915790408b4b4c9683872ff
+  - enabled: 1
+    path: Assets/_Scenes/CellWallScreen.unity
+    guid: 111e70b42b800f541ad86cf26999a7a6
+  - enabled: 1
+    path: Assets/_Scenes/CentriolesScreen.unity
+    guid: 29edf557fcb011646abed66418a33231
+  - enabled: 1
+    path: Assets/_Scenes/CytoplasmScreen.unity
+    guid: f47ea3e2830201c4abd258e183028567
+  - enabled: 1
+    path: Assets/_Scenes/EndoplasmicReticulumScreen.unity
+    guid: b791706b93cc9eb4daa7349eab4dffb4
+  - enabled: 1
+    path: Assets/_Scenes/LysosomeScreen.unity
+    guid: 4ea1af3d5a8c39e49b74cfce756be82b
+  - enabled: 1
+    path: Assets/_Scenes/MicrofilamentScreen.unity
+    guid: 9015b9ab5c6580341becf709f889fee4
+  - enabled: 1
+    path: Assets/_Scenes/MitochondriaScreen.unity
+    guid: 31ff4c69e3cda3642af8be25490e4912
+  - enabled: 1
+    path: Assets/_Scenes/NavigationRingScene.unity
+    guid: b56969007ac649e4e8cf10c3c30def3f
+  - enabled: 1
+    path: Assets/_Scenes/NucleusScreen.unity
+    guid: 5841c816734a2e94c8ddcfe0649bcfdb
+  - enabled: 1
+    path: Assets/_Scenes/RibosomesScreen.unity
+    guid: 679ebe27c6de003408ef59bd170712fe
+  - enabled: 1
+    path: Assets/_Scenes/SelectionScreen.unity
+    guid: 183237448288eca47b64de239901bf21
+  - enabled: 1
+    path: Assets/_Scenes/VacuoleScreen.unity
+    guid: 5e3ddf68cbce32449b40c75d10f116e6

@@ -51,35 +51,14 @@ public class Gyroscope : MonoBehaviour
 	void Update () 
 	{
         
-		if (MoverioController.Instance.MoverioDevice == true)
-		{
-
-
-
-            //if (tglbtn.ison == true) //switching between head tracking and controller tracking
-            //{
-
-            //    camera.getcomponent<headtrackingar>().enabled = false;  //disabling the headset gyroscope.
-            //    titletext.text = "gyro controller : " + mathf.round(moveriocontroller.instance.getsensordata(type_controller_gyroscope)[0]).tostring() + ", " +
-            //", " + mathf.round(moveriocontroller.instance.getsensordata(type_controller_gyroscope)[1]).tostring() + ", " +
-            //", " + mathf.round(moveriocontroller.instance.getsensordata(type_controller_gyroscope)[2]).tostring();
-
-            //    camera.transform.rotate(-moveriocontroller.instance.getsensordata(type_controller_gyroscope)[0] * 5f, -moveriocontroller.instance.getsensordata(type_controller_gyroscope)[1] * 5f, 0); //enabling the controller gyroscope.
-
-            //}
-            //else
-            {
-                camera.GetComponent<HeadTrackingAR> ().enabled = true; //Enabling the headset gyroscope.
-		    }
-
-		}
+		
 	}
 
 	void FixedUpdate()
 	{
         Vector3 position = animalCell.transform.localPosition;
         float scaleValue = animalCell.transform.localScale.x;
-       Debug.Log(scaleValue);
+       //Debug.Log(scaleValue);
         if (scaleValue  > 1.1)
         {
             deltaScale *= -1;
