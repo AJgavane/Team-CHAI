@@ -1,6 +1,6 @@
 Android
 PlayerPath?
-E:/Augmented Reality/ARPresentation/ARPresentation_android.apk
+E:/Augmented Reality/ARPresentation/ARPresentation.apk
 SceneListBegin?
 Assets/_Scenes/Start Menu.unity
 Assets/_Scenes/Presentation.unity
@@ -11,11 +11,11 @@ Assets/_Scenes/EndoplasmicReticulumScreen.unity
 Assets/_Scenes/LysosomeScreen.unity
 Assets/_Scenes/MicrofilamentScreen.unity
 Assets/_Scenes/MitochondriaScreen.unity
-Assets/_Scenes/NavigationRingScene.unity
 Assets/_Scenes/NucleusScreen.unity
 Assets/_Scenes/RibosomesScreen.unity
-Assets/_Scenes/SelectionScreen.unity
+Assets/_Scenes/SelectionScreen_2.unity
 Assets/_Scenes/VacuoleScreen.unity
+Assets/_Scenes/SelectionScreen.unity
 SceneListEnd?
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.Timeline.dll:UnityEngine.Timeline.ActivationPlayableAsset
 dbc29a6f2739d277c10da432d73adb6d UnityEngine.Timeline.dll:UnityEngine.Timeline.ActivationTrack
@@ -29,7 +29,9 @@ ff05dcdf90651c3d98a9cad3df5e471e UnityEngine.Timeline.dll:UnityEngine.Timeline.C
 31aaf521b3ef8699466676591ea0efd4 UnityEngine.Timeline.dll:UnityEngine.Timeline.GroupTrack
 31aaf521b3ef8699466676591ea0efd4 UnityEngine.Timeline.dll:UnityEngine.Timeline.PlayableTrack
 df374c01140c2d578bf70cbd60073d1d UnityEngine.Timeline.dll:UnityEngine.Timeline.TimelineAsset
+58cd01289e4b47df094788027ef9dc23 Assembly-CSharp.dll:.HeartBeatMotion
 ef0e82b4c663c022efc9e17a41cb250f Assembly-CSharp.dll:.MoverioController
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.Micro_button
 8d986f6ecbf232bd95817abacd2db695 Assembly-CSharp.dll:.MoverioCameraController
 a35dc9cca2faebc5f5f1aeb9e8e47bbe UnityEngine.UI.dll:UnityEngine.UI.AspectRatioFitter
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.UI.dll:UnityEngine.EventSystems.BaseInput
@@ -95,6 +97,7 @@ c63db43c730fa2cbb8ca07de15898cb6 UnityEngine.UI.dll:UnityEngine.UI.Toggle
 f61c0793411f10cf5fbfa1473fef5ef2 UnityEngine.UI.dll:UnityEngine.UI.ToggleGroup
 86d36c43c53541d667100dc90b89cfba UnityEngine.UI.dll:UnityEngine.EventSystems.TouchInputModule
 1b8c02d0aa82fbf036a2b9b2d713eec3 UnityEngine.UI.dll:UnityEngine.UI.VerticalLayoutGroup
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.Nuc_button
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.Timeline.dll:UnityEngine.Timeline.ActivationPlayableAsset
 dbc29a6f2739d277c10da432d73adb6d UnityEngine.Timeline.dll:UnityEngine.Timeline.ActivationTrack
 8144169769d51429c4aedc8b0f92d47b UnityEngine.Timeline.dll:UnityEngine.Timeline.AnimationPlayableAsset
@@ -200,10 +203,15 @@ d2a2bd333db22f480a8589e167314ecc Vuforia.UnityExtensions.dll:Vuforia.UserDefined
 3d1b89310e77c34bc0c8d7132231345c Vuforia.UnityExtensions.dll:Vuforia.WireframeBehaviour
 05524b8f659e7bfe5756d1335fec24ba Vuforia.UnityExtensions.dll:Vuforia.WireframeTrackableEventHandler
 15bea26698002c6c4a3087131232ce5c Vuforia.UnityExtensions.dll:Vuforia.WordBehaviour
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.ER_button
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.Cyto_button
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.Cent_button
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.HeadTrakingAR
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.Advertisements.dll:UnityEngine.Advertisements.CallbackExecutor
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.Advertisements.dll:UnityEngine.Advertisements.Editor.Placeholder
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.Lyso_button
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.Scrip
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.Vac_button
 fc1e0f4d8439d9928083474691511a13 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkAnimator
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.Networking.dll:UnityEngine.Networking.NetworkBehaviour
 60b2bb652410a5867a5ab9a01cd38461 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkDiscovery
@@ -218,6 +226,7 @@ e9bdabf9265d758d56f01bb188916fa8 UnityEngine.Networking.dll:UnityEngine.Networki
 3f32f08a64daf40b09ed864d96fe3840 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkTransform
 73843688b51256aed059f049c540bca8 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkTransformChild
 528ea1fd7c01796fc60c4e2f172ea229 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkTransformVisualizer
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.Ribo_button
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.TestRunner.dll:UnityEngine.TestTools.TestRunner.Callbacks.PlayModeRunnerCallback
 96d0fbde9fd209878a0a291f82c9bcdd UnityEngine.TestRunner.dll:UnityEngine.TestTools.TestRunner.PlaymodeTestsController
 64eb32cc721b1cc68a91ed57461e188c UnityEngine.TestRunner.dll:UnityEngine.TestTools.TestRunner.Callbacks.RemoteTestResultSender
@@ -229,6 +238,7 @@ e0f7ffd5d5c2abe4b2e16569a21163da UnityEngine.GoogleAudioSpatializer.dll:UnityEng
 e0f7ffd5d5c2abe4b2e16569a21163da UnityEngine.GoogleAudioSpatializer.dll:UnityEngine.Experimental.Audio.Google.GvrAudioRoom
 67a5f2c97205d2e41a8ed7c7ce898f6e UnityEngine.GoogleAudioSpatializer.dll:UnityEngine.Experimental.Audio.Google.GvrAudioSoundfieldExtension
 67a5f2c97205d2e41a8ed7c7ce898f6e UnityEngine.GoogleAudioSpatializer.dll:UnityEngine.Experimental.Audio.Google.GvrAudioSourceExtension
+f970a8c3c6381b998fe99262480eb961 Assembly-CSharp.dll:UnityEngine.UI.Touchable
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.HeadsetTap
 bc68edb0af574bf79f9550ead8ebae5c UnityEngine.HoloLens.dll:UnityEngine.Audio.AudioSpatializerMicrosoft
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.HoloLens.dll:UnityEngine.EventSystems.HoloLensInput
@@ -237,6 +247,7 @@ c2275a8bfbb9f9942cad75ecdfded41d UnityEngine.HoloLens.dll:UnityEngine.XR.WSA.Spa
 45f3431f0103c41611e8d4eec3d439df UnityEngine.HoloLens.dll:UnityEngine.XR.WSA.SpatialMappingRenderer
 9de3a22eca9aefadba2d10d5987cefe3 UnityEngine.SpatialTracking.dll:UnityEngine.SpatialTracking.TrackedPoseDriver
 0ac782daa4e02a0729acbbe8f1e38703 Assembly-CSharp.dll:.HeadTrackingAR
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.Mito_button
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.LevelManager
 26215f135eeb48d8fa1189498c107f6c Vuforia.UnityExtensions.dll:Vuforia.AnchorBehaviour
 0561521e336e270e6e5a9c61387cb838 Vuforia.UnityExtensions.dll:Vuforia.AnchorInputListenerBehaviour
@@ -274,6 +285,7 @@ d2a2bd333db22f480a8589e167314ecc Vuforia.UnityExtensions.dll:Vuforia.UserDefined
 05524b8f659e7bfe5756d1335fec24ba Vuforia.UnityExtensions.dll:Vuforia.WireframeTrackableEventHandler
 15bea26698002c6c4a3087131232ce5c Vuforia.UnityExtensions.dll:Vuforia.WordBehaviour
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.Magnetometer
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.Wall_button
 26215f135eeb48d8fa1189498c107f6c Vuforia.UnityExtensions.dll:Vuforia.AnchorBehaviour
 0561521e336e270e6e5a9c61387cb838 Vuforia.UnityExtensions.dll:Vuforia.AnchorInputListenerBehaviour
 2e0fd93f459db951da0e2e94e2e33fb7 Vuforia.UnityExtensions.dll:Vuforia.AnchorStageBehaviour
@@ -309,16 +321,4 @@ d2a2bd333db22f480a8589e167314ecc Vuforia.UnityExtensions.dll:Vuforia.UserDefined
 3d1b89310e77c34bc0c8d7132231345c Vuforia.UnityExtensions.dll:Vuforia.WireframeBehaviour
 05524b8f659e7bfe5756d1335fec24ba Vuforia.UnityExtensions.dll:Vuforia.WireframeTrackableEventHandler
 15bea26698002c6c4a3087131232ce5c Vuforia.UnityExtensions.dll:Vuforia.WordBehaviour
-05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.Lyso_button
-05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.Nuc_button
-05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.Cyto_button
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.NavScript
-05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.Mito_button
-05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.Wall_button
-05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.Vac_button
-05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.Cent_button
-05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.Ribo_button
-f970a8c3c6381b998fe99262480eb961 Assembly-CSharp.dll:UnityEngine.UI.Touchable
-05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.Micro_button
-05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.ER_button
-58cd01289e4b47df094788027ef9dc23 Assembly-CSharp.dll:.HeartBeatMotion

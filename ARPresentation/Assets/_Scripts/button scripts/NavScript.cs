@@ -7,12 +7,12 @@ public class NavScript : MonoBehaviour {
     Quaternion startRotation;
     Quaternion endRotation;
     float rotationProgress = -1;
-
+    string m_sceneName = null;
+    LevelManager levelManager = new LevelManager();
     // Use this for initialization
     void Start () {
 		
 	}
-
     // Call this to start the rotation
     public void StartRotating(float zPosition)
     {
@@ -21,6 +21,17 @@ public class NavScript : MonoBehaviour {
         startRotation = transform.rotation;
         endRotation = Quaternion.Euler(transform.rotation.eulerAngles.x, transform.rotation.eulerAngles.y, zPosition);
 
+        // This starts the rotation, but you can use a boolean flag if it's clearer for you
+        rotationProgress = 0;
+    }
+    // Call this to start the rotation
+    public void StartRotating(float zPosition, string sceneName)
+    {
+
+        // Here we cache the starting and target rotations
+        startRotation = transform.rotation;
+        endRotation = Quaternion.Euler(transform.rotation.eulerAngles.x, transform.rotation.eulerAngles.y, zPosition);
+        m_sceneName = sceneName;
         // This starts the rotation, but you can use a boolean flag if it's clearer for you
         rotationProgress = 0;
     }
@@ -43,14 +54,13 @@ public class NavScript : MonoBehaviour {
             {
                 rotationProgress += Time.deltaTime * 2;
             }
-            
-            
-        
-            
-
             // Here we assign the interpolated rotation to transform.rotation
             // It will range from startRotation (rotationProgress == 0) to endRotation (rotationProgress >= 1)
             transform.rotation = Quaternion.Lerp(startRotation, endRotation, rotationProgress);
+        }
+        else
+        {
+            levelManager.LoadLevel(m_sceneName);
         }
     }
 }

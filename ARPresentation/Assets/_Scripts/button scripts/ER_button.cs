@@ -14,9 +14,9 @@ public class ER_button : MonoBehaviour {
 		
 	}
 
-    public void onClick()
+    public void onClick(string sceneName)
     {
-        GetComponent<NavScript>().StartRotating(142);
+        GetComponent<NavScript>().StartRotating(142, sceneName);
         Debug.Log("ER clicked");
     }
 

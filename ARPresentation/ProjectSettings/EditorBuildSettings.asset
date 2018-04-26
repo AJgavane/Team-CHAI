@@ -33,9 +33,6 @@ EditorBuildSettings:
     path: Assets/_Scenes/MitochondriaScreen.unity
     guid: 31ff4c69e3cda3642af8be25490e4912
   - enabled: 1
-    path: Assets/_Scenes/NavigationRingScene.unity
-    guid: b56969007ac649e4e8cf10c3c30def3f
-  - enabled: 1
     path: Assets/_Scenes/NucleusScreen.unity
     guid: 5841c816734a2e94c8ddcfe0649bcfdb
   - enabled: 1
@@ -47,3 +44,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/_Scenes/VacuoleScreen.unity
     guid: 5e3ddf68cbce32449b40c75d10f116e6
+  - enabled: 1
+    path: Assets/_Scenes/NavigationRingScene.unity
+    guid: b56969007ac649e4e8cf10c3c30def3f

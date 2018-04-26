@@ -14,9 +14,9 @@ public class Nuc_button : MonoBehaviour {
 		
 	}
 
-    public void onClick()
+    public void onClick(string sceneName)
     {
-        GetComponent<NavScript>().StartRotating(288);
+        GetComponent<NavScript>().StartRotating(288, sceneName);
         Debug.Log("Nucleus clicked");
     }
 

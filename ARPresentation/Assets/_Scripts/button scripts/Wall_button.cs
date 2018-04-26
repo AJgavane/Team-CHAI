@@ -15,9 +15,9 @@ public class Wall_button : MonoBehaviour {
 		
 	}
 
-    public void onClick()
+    public void onClick(string sceneName)
     {
-        GetComponent<NavScript>().StartRotating(70);
+        GetComponent<NavScript>().StartRotating(70, sceneName);
         Debug.Log("Cell Wall clicked");
     }
 }

@@ -14,9 +14,9 @@ public class Ribo_button : MonoBehaviour {
 		
 	}
 
-    public void onClick()
+    public void onClick(string sceneName)
     {
-        GetComponent<NavScript>().StartRotating(322);
+        GetComponent<NavScript>().StartRotating(322, sceneName);
         Debug.Log("Ribosome clicked");
     }
 

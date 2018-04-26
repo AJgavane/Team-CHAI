@@ -14,9 +14,9 @@ public class Mito_button : MonoBehaviour {
 		
 	}
 
-    public void onClick()
+    public void onClick(string sceneName)
     {
-        GetComponent<NavScript>().StartRotating(0);
+        GetComponent<NavScript>().StartRotating(0, sceneName);
         Debug.Log("Mitochondria clicked");
     }
 }

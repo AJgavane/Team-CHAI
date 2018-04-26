@@ -14,9 +14,9 @@ public class Vac_button : MonoBehaviour {
 		
 	}
 
-    public void onClick()
+    public void onClick(string sceneName)
     {
-        GetComponent<NavScript>().StartRotating(250);
+        GetComponent<NavScript>().StartRotating(250, sceneName);
         Debug.Log("Vacuole clicked");
     }
 }

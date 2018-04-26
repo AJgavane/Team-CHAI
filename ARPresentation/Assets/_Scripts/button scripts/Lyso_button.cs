@@ -14,9 +14,9 @@ public class Lyso_button : MonoBehaviour {
 		
 	}
 
-    public void onClick()
+    public void onClick(string sceneName)
     {
-        GetComponent<NavScript>().StartRotating(215);
+        GetComponent<NavScript>().StartRotating(215, sceneName);
         Debug.Log("Lysosome clicked");
     }
 

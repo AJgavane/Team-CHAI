@@ -14,9 +14,9 @@ public class Micro_button : MonoBehaviour {
 		
 	}
 
-    public void onClick()
+    public void onClick(string sceneName)
     {
-        GetComponent<NavScript>().StartRotating(35);
+        GetComponent<NavScript>().StartRotating(35, sceneName);
         Debug.Log("Mircofilament clicked");
     }
 

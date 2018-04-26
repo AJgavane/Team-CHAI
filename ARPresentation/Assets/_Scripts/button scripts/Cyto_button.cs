@@ -14,9 +14,9 @@ public class Cyto_button : MonoBehaviour {
 		
 	}
 
-    public void onClick()
+    public void onClick(string sceneName)
     {
-        GetComponent<NavScript>().StartRotating(107);
+        GetComponent<NavScript>().StartRotating(107, sceneName);
         Debug.Log("Cytoplasm clicked");
     }
 

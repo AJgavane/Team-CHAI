@@ -721,7 +721,7 @@ Transform:
   m_PrefabParentObject: {fileID: 400000, guid: 8fc5dffaab2d2034f89d69d46a5c3621, type: 3}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 202649281}
-  m_LocalRotation: {x: -0.16057381, y: -0.045203365, z: -0.0073618307, w: 0.9859608}
+  m_LocalRotation: {x: -0.3169717, y: -0.04343219, z: -0.0145322075, w: 0.94732857}
   m_LocalPosition: {x: 0, y: -0.35, z: 9.91}
   m_LocalScale: {x: 50, y: 50, z: 50}
   m_Children:
@@ -749,7 +749,7 @@ Transform:
   - {fileID: 1934476853}
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: -18.5, y: -5.25, z: 0}
+  m_LocalEulerAnglesHint: {x: -37, y: -5.25, z: 0}
 --- !u!1 &428833743
 GameObject:
   m_ObjectHideFlags: 0
@@ -869,7 +869,7 @@ MonoBehaviour:
   organelle: {fileID: 438495930}
   maxScale: 2.05
   minScale: 1.94
-  deltaScale: 0.002
+  deltaScale: 0.01
 --- !u!1 &478048712
 GameObject:
   m_ObjectHideFlags: 0
@@ -1148,7 +1148,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Texture: {fileID: 2800000, guid: 79ec398bfb4afe54bb3f527d21be13e8, type: 3}
+  m_Texture: {fileID: 2800000, guid: b7a36983ebee63d4ca0f95b17a42b7a8, type: 3}
   m_UVRect:
     serializedVersion: 2
     x: 0
@@ -1177,8 +1177,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 219, y: 244}
-  m_SizeDelta: {x: 20607, y: 5288}
+  m_AnchoredPosition: {x: 221, y: 221}
+  m_SizeDelta: {x: 18465, y: 3766}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &556705734
 GameObject:
@@ -2416,7 +2416,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 9700.001, y: -2066.6667}
+  m_AnchoredPosition: {x: 8713, y: -1384}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1285192254
@@ -3083,7 +3083,7 @@ MonoBehaviour:
   organelle: {fileID: 1640523752}
   maxScale: 1.1
   minScale: 0.956
-  deltaScale: 0.002
+  deltaScale: 0.01
 --- !u!1 &1674945607
 GameObject:
   m_ObjectHideFlags: 0

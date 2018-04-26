@@ -26,7 +26,7 @@ public class HeartBeatMotion : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
         Vector3 position = organelle.transform.localPosition;
-        Debug.Log(position.x + ", " + position.y + ", " + position.z);
+        //Debug.Log(position.x + ", " + position.y + ", " + position.z);
         float scaleValue = organelle.transform.localScale.x;
         //Debug.Log(scaleValue);
         if (scaleValue > maxScale)
@@ -39,7 +39,7 @@ public class HeartBeatMotion : MonoBehaviour {
         }
 
        // organelle.transform.position = new Vector3(-position.x, -position.y, -position.z);
-        organelle.transform.localScale += new Vector3(deltaScale, deltaScale, 0);
+        organelle.transform.localScale += new Vector3(deltaScale, deltaScale, deltaScale);
        // organelle.transform.position = new Vector3(position.x, position.y, position.z);
 
        // organelle.transform.Rotate (rotateValue);//a linear rotation for the animal on it's own axis

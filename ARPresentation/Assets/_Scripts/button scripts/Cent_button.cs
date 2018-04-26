@@ -14,9 +14,9 @@ public class Cent_button : MonoBehaviour {
 		
 	}
 
-    public void onClick()
+    public void onClick(string sceneName)
     {
-        GetComponent<NavScript>().StartRotating(180);
+        GetComponent<NavScript>().StartRotating(180, sceneName);
         Debug.Log("Centriole clicked");
     }
 
