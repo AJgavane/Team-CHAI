@@ -71,6 +71,7 @@
      <Compile Include="Assets\_Scripts\Gyroscope\Magnetometer.cs" />
      <Compile Include="Assets\_Scripts\LevelManager.cs" />
      <Compile Include="Assets\_Scripts\Organelle\HeartBeatMotion.cs" />
+     <Compile Include="Assets\_Scripts\Vibration.cs" />
      <Compile Include="Assets\HeadTrakingAR.cs" />
      <Compile Include="Assets\Scrip.cs" />
  <Reference Include="Vuforia.UnityExtensions">

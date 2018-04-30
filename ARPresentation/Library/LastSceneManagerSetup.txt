@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/_Scenes/SelectionScreen.unity
+- path: Assets/_Scenes/VacuoleScreen.unity
   isLoaded: 1
   isActive: 1

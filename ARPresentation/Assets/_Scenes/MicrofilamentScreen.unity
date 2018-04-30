@@ -139,7 +139,7 @@ RectTransform:
   m_GameObject: {fileID: 44206055}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 8.333334, y: 8.333334, z: 1}
+  m_LocalScale: {x: 10.03333, y: 10.03333, z: 1}
   m_Children: []
   m_Father: {fileID: 101517135}
   m_RootOrder: 0
@@ -861,7 +861,7 @@ RectTransform:
   m_GameObject: {fileID: 1159497979}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.6666665, y: 1, z: 1}
+  m_LocalScale: {x: 1.966667, y: 1.2, z: 1}
   m_Children: []
   m_Father: {fileID: 305904872}
   m_RootOrder: 0
@@ -986,7 +986,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Texture: {fileID: 2800000, guid: f39d9f8ca7b8bb84c8362d5d07a96c5e, type: 3}
+  m_Texture: {fileID: 2800000, guid: 4a011cbcb4f20a54598a7f0ffc64d19e, type: 3}
   m_UVRect:
     serializedVersion: 2
     x: 0
@@ -1596,7 +1596,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Texture: {fileID: 2800000, guid: d964d0f945413ca4db506297260d506c, type: 3}
+  m_Texture: {fileID: 2800000, guid: b3463bbb2f5c8554994c7fbeea635178, type: 3}
   m_UVRect:
     serializedVersion: 2
     x: 0
@@ -1713,14 +1713,14 @@ RectTransform:
   m_GameObject: {fileID: 1581672323}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.8695652, y: 0.95238096, z: 1}
+  m_LocalScale: {x: 1.39565, y: 1.52381, z: 1}
   m_Children: []
   m_Father: {fileID: 868327737}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 458.69568, y: -515.71423}
+  m_AnchoredPosition: {x: 443.1, y: -500.90002}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1717873647
@@ -1855,14 +1855,14 @@ RectTransform:
   m_GameObject: {fileID: 1717873647}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.8695652, y: 0.95238096, z: 1}
+  m_LocalScale: {x: 1.3, y: 1.5, z: 1}
   m_Children: []
   m_Father: {fileID: 868327737}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 352.6086, y: -515.71423}
+  m_AnchoredPosition: {x: 300.3, y: -500.9}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1792906033
